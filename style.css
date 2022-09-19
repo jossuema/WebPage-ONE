@@ -1,0 +1,111 @@
+body{
+
+}
+
+/* CSS para el encabezado*/
+
+header{
+    background-color: #CCCCCC;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+nav{
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(214, 139, 0);
+    text-decoration: underline;
+}
+
+/*  CSS para la foto banner */
+
+.banner{
+    padding: 5px 0px;
+    width: 100%;
+}
+
+/*  CSS para el cuerpo */
+
+.principal{
+    background: #CCCCCC;
+    padding: 30px;
+    font-size: normal;
+    font-size: 17px;
+}
+
+.titulo{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+p{
+    text-align: center;
+}
+
+em strong{
+    color: red;
+}
+
+#mision{
+    font-size: 18px;
+    margin: 15px;
+}
+
+.diferenciales{
+    background: #FFFFFF ;
+    padding: 30px;
+}
+
+h2{
+    text-align: center;
+}
+
+.items{
+    font-style: italic;
+}
+
+.lista-items{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagenDiferenciales{
+    width:50%;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+}
+
+.copyrigth{
+    color: white;
+    font-size: 13px;
+}
