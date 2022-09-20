@@ -1,10 +1,4 @@
-body{
 
-}
-
-main{
-    
-}
 /* CSS para el encabezado*/
 
 header{
@@ -12,7 +6,7 @@ header{
 }
 
 .caja{
-    width: 940px;
+    width: auto;
     position: relative;
     margin: 0 auto;
 
@@ -124,6 +118,7 @@ h2{
 
 .imagenDiferenciales{
     width:50%;
+    box-shadow: 10px 10px 30px #000000;
 }
 
 /*CSS objetos externos*/
@@ -139,7 +134,7 @@ h2{
     width: 900px;
 }
 
-.ubicacion div{
+.divdevrg{
     margin: 0 auto;
     width: 900px;
 }
@@ -160,4 +155,16 @@ footer{
     color: white;
     font-size: 13px;
     text-align: center;
+}
+
+@media screen and (max-width:480px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .caja, .principal, .imagenDiferenciales, .video,  iframe, .ubicacion p, .lista-diferenciales, .divdevrg, .lista-items{
+        width: auto;
+    }
 }
