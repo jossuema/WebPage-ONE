@@ -21,9 +21,15 @@
                 <h1><img width="200px" src="imagenes/logointer.png"></h1>
                 <nav>
                     <ul>
+<<<<<<< HEAD
                         <li><a href="index.html">Home</a></li>
                         <li><a href="Productos.html">Productos</a></li>
                         <li><a href="Contacto.html">Contacto</a></li>
+=======
+                        <li><a onclick="GoHome()">Home</a></li>
+                        <li><a onclick="GoProducts()">Productos</a></li>
+                        <li><a onclick="GoContact()">Contacto</a></li>
+>>>>>>> c2d261243aabcf0ef2de44c64dc02fdf9d320077
                     </ul>
                 </nav>
             </div>
@@ -82,6 +88,16 @@
         </footer>
         
     </body>
-
+    <script>
+        function Gohome(){
+            window.location.href="index.html";
+        }
+        function GoProducts(){
+            window.location.href="Productos.html";
+        }
+        function GoContact(){
+            window.location.href="Contacto.html";
+        }
+    </script>
     
 </html>
