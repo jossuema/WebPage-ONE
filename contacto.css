@@ -1,12 +1,16 @@
+*{
+    font-family: 'Aref Ruqaa Ink', serif;
+}
+
 header{
     background-color: #CCCCCC;
+    font-family: 'Aref Ruqaa Ink', serif;
 }
 
 .caja{
     width: 940px;
     position: relative;
     margin: 0 auto;
-
 }
 
 nav{
